@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-07T12:22:47Z" name="Suite" finished-at="2019-11-07T12:23:56Z" duration-ms="69073">
+    <groups>
+    </groups>
+    <test started-at="2019-11-07T12:22:47Z" name="Test" finished-at="2019-11-07T12:23:56Z" duration-ms="69073">
+      <class name="com.atmecs.toolsQA.testscripts.Practo">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.atmecs.toolsQA.testscripts.Practo@59fd97a8]" started-at="2019-11-07T12:22:47Z" name="initializeBrowser" finished-at="2019-11-07T12:23:06Z" duration-ms="19548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="validating()[pri:0, instance:com.atmecs.toolsQA.testscripts.Practo@59fd97a8]" started-at="2019-11-07T12:23:06Z" name="validating" finished-at="2019-11-07T12:23:53Z" duration-ms="47239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validating -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.atmecs.toolsQA.testscripts.Practo@59fd97a8]" started-at="2019-11-07T12:23:53Z" name="closeBrowser" finished-at="2019-11-07T12:23:56Z" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.toolsQA.testscripts.Practo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.01" tests="9" errors="0" skipped="6" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA\target\test-classes;C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.11\poi-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire9873458381935962745\surefirebooter4468108189088707092.jar C:\Windows\Temp\surefire9873458381935962745 2019-11-07T17-27-31_210-jvmRun1 surefire16024652097333255802tmp surefire_015208355379664213447tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA\target\test-classes;C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.11\poi-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire9873458381935962745\surefirebooter4468108189088707092.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="ATMECSINLT-083$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="C:\Users\saianusha.podichervu\eclipse-workspace\Automation-ToolsQA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;%JAVA_HOME%;%MAVEN_HOME%;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Windows\System32;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="initializeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="2.908">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 27091
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="initializeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="4.83">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 22972
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="initializeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="5.606">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 49025
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="testingDemoPage" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;"/>
+  </testcase>
+  <testcase name="testingDemoPage" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;"/>
+  </testcase>
+  <testcase name="testingDemoPage" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ATMECSINLT-083&apos;, ip: &apos;55.55.52.90&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00B8A903+1550595]&#10;	Ordinal0 [0x00B0A701+1025793]&#10;	Ordinal0 [0x00A8C6E5+509669]&#10;	Ordinal0 [0x00A1C082+49282]&#10;	Ordinal0 [0x00A3ACE7+175335]&#10;	Ordinal0 [0x00A3A8ED+174317]&#10;	Ordinal0 [0x00A38CDB+167131]&#10;	Ordinal0 [0x00A2144A+70730]&#10;	Ordinal0 [0x00A224D0+74960]&#10;	Ordinal0 [0x00A22469+74857]&#10;	Ordinal0 [0x00B242C7+1131207]&#10;	GetHandleVerifier [0x00C270FD+523789]&#10;	GetHandleVerifier [0x00C26E90+523168]&#10;	GetHandleVerifier [0x00C2E1E7+552695]&#10;	GetHandleVerifier [0x00C278FA+525834]&#10;	Ordinal0 [0x00B1B7FC+1095676]&#10;	Ordinal0 [0x00B2633B+1139515]&#10;	Ordinal0 [0x00B264A3+1139875]&#10;	Ordinal0 [0x00B25425+1135653]&#10;	BaseThreadInitThunk [0x759C60C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]&#10;"/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="com.atmecs.toolsQA.testscripts.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

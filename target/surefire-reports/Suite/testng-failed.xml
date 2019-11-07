@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.toolsQA.testscripts.TestHomePage">
+        <methods>
+          <include name="testingDemoPage"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.toolsQA.testscripts.TestHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.toolsQA.testscripts.TestHomePage">
+        <methods>
+          <include name="testingDemoPage"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.toolsQA.testscripts.TestHomePage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.toolsQA.testscripts.TestHomePage">
+        <methods>
+          <include name="testingDemoPage"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.toolsQA.testscripts.TestHomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

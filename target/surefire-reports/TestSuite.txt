@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 6.01 s <<< FAILURE! - in TestSuite
+initializeBrowser(com.atmecs.toolsQA.testscripts.TestHomePage)  Time elapsed: 2.908 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+
+initializeBrowser(com.atmecs.toolsQA.testscripts.TestHomePage)  Time elapsed: 4.83 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+
+initializeBrowser(com.atmecs.toolsQA.testscripts.TestHomePage)  Time elapsed: 5.606 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-083', ip: '55.55.52.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B8A903+1550595]
+	Ordinal0 [0x00B0A701+1025793]
+	Ordinal0 [0x00A8C6E5+509669]
+	Ordinal0 [0x00A1C082+49282]
+	Ordinal0 [0x00A3ACE7+175335]
+	Ordinal0 [0x00A3A8ED+174317]
+	Ordinal0 [0x00A38CDB+167131]
+	Ordinal0 [0x00A2144A+70730]
+	Ordinal0 [0x00A224D0+74960]
+	Ordinal0 [0x00A22469+74857]
+	Ordinal0 [0x00B242C7+1131207]
+	GetHandleVerifier [0x00C270FD+523789]
+	GetHandleVerifier [0x00C26E90+523168]
+	GetHandleVerifier [0x00C2E1E7+552695]
+	GetHandleVerifier [0x00C278FA+525834]
+	Ordinal0 [0x00B1B7FC+1095676]
+	Ordinal0 [0x00B2633B+1139515]
+	Ordinal0 [0x00B264A3+1139875]
+	Ordinal0 [0x00B25425+1135653]
+	BaseThreadInitThunk [0x759C60C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77CC7A64+180]
+
+
